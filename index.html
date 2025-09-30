@@ -7,9 +7,9 @@
    
     <style>
         *{
-            padding:0;
+            padding: 0;
             margin: 0;
-            background-color:rgb(255, 236, 211);
+            
         }
 
             .nav-header {
@@ -32,6 +32,52 @@
                 justify-content: center;
             }
     
+            .cafe-mysigt{
+               background-color: rgb(252, 236, 214);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                padding:5rem;
+                
+            }
+
+            .our-meny {
+                background-color: rgb(245, 217, 179);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                padding:5rem;
+            }
+
+            .farskt-fran-bageriet {
+                 background-color: rgb(252, 236, 214);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                padding:5rem;
+            }
+
+            .oppettider {
+                 background-color: rgb(245, 217, 179);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                padding:5rem;
+            }
+
+            .hitta-hit {
+                 background-color:rgb(143, 67, 20);
+                padding: 16px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+            }
+
     </style>
 </head>
 
@@ -49,7 +95,7 @@
     </header>
 
     <Main>
-        <section>
+        <section class="cafe-mysigt">
                 <h1>Café Mysigt</h1>
                 <h2>Om oss</h2>
                 <p> Välkommen till Café Mysigt- stadens mysigaste plats för kaffe och fika. Vi har serverat färskbryggt kaffe och hembakade bullar sedan 1995. Hos oss hittar du alltid varm atmosfär och vänlig service.
@@ -63,31 +109,44 @@
         <h3>Drycker</h3>
         <h4> Alla våra drycker bryggs med kärlek</h4>
             <ul>
-                <li><a>Kaffe - 35kr</a></li>
-                <li><a>Cappuccino - 45kr</a></li>
-                <li><a>Te (olika sorter) - 30kr</a></li>
-                <li><a></a>Varm choklad - 45kr</li>
+                <li><a>1. Kaffe - 35kr</a></li>
+                <li><a>2. Cappuccino - 45kr</a></li>
+                <li><a>3. Te (olika sorter) - 30kr</a></li>
+                <li><a>4. Varm choklad - 45kr</a></li>
             </ul>
     </section>
 
-    <section>
+    <section class="farskt-fran-bageriet">
         <h2>Färskt från bageriet</h2>
         <h3>Bakvärk</h3>
         <h4>Bakat färskt varje dag</h4>
             <ul>
-                <li><a>Kanelbullar</a></li>
-                <li><a>Chokladcroissant</a></li>
-                <li><a>Blåbärsmuffin</a></li>
-                <li><a>Smurgås med pålägg</a></li>
+                <li><a>1. Kanelbullar - 25kr/st</a></li>
+                <li><a>2. Chokladcroissant - 35kr/st</a></li>
+                <li><a>3. Blåbärsmuffin - 30kr/st</a></li>
+                <li><a>4. Smurgås med pålägg - 55kr/st</a></li>
             </ul>
     
     </section>
     
+    <section class="oppettider">
+        <h2>Öppettider</h2>
+        <h3>Veckoschema</h3>
+            <ul>
+                <li><a>Måndag - Fredag: 07:00 - 18:00</a></li>
+                <li><a>Lördag: 08:00 - 16:00</a></li>
+                <li><a>Söndag: 09:00 - 15:00</a></li>
+        <h4>Vi är öppna alla dagar runt året förutom midsommar, julafton och nyårsafton. kom och njut av en lugn stund hos oss</h4>      
+            </ul>
     
-    
-    
-    
-    
+    </section>
+
+    <footer class="hitta-hit">
+        <h3>Hitta hit</h3>
+            <a href="tel:081234567">08-123 45 67</a>
+            <a href="info@cafemysigt.se">skicka email</a>
+    </footer>
     
     </Main>
 </body>
+</html>
